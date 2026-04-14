@@ -1,0 +1,17 @@
+.env
+__pycache__/
+**/__pycache__/
+.claude/
+.venv/
+.vscode/
+adk-mcp-a2a.code-workspace
+
+# Archivos temporales de debug
+debug_*.png
+all.txt
+auth.json
+chrome_profile/
+
+# Notas locales
+interview.md
+INICIO.md

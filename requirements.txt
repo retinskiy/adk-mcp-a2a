@@ -1,0 +1,8 @@
+google-adk
+gradio
+mcp
+httpx
+python-dotenv
+ddgs
+beautifulsoup4
+playwright
