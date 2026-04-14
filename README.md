@@ -164,13 +164,13 @@ Open [http://localhost:7860](http://localhost:7860) in your browser.
 
 1. **Open the UI**
 
-2. **Enter a topic** — try `"Google Agent Development Kit (ADK)"` or `"Model Context Protocol (MCP) for AI agents"`.
+2. **Enter a topic** — for example, try `"Google Agent Development Kit (ADK)"` or `"Model Context Protocol (MCP) for AI agents"` or introduce your prompt.
 
 3. **Click Run Research Crew** — workflow:
-   - *"First the Orchestrator delegates to the WebResearcher agent via A2A — that's just an `AgentTool` wrapping a second ADK agent."*
-   - *"The WebResearcher connects to a local MCP server — a separate process — and calls `search_web` and `fetch_url` over the stdio MCP protocol."*
-   - *"Then A2A again to the Summarizer, which uses the LLM to structure raw JSON into a markdown brief."*
-   - *"Finally the NotebookLM agent — it opens Chrome via CDP and creates a real NotebookLM notebook with the research pasted in as a source. The podcast excerpt and FAQ are simulated."*
+   - *First the Orchestrator delegates to the WebResearcher agent via A2A — that's just an `AgentTool` wrapping a second ADK agent.*
+   - *The WebResearcher connects to a local MCP server — a separate process — and calls `search_web` and `fetch_url` over the stdio MCP protocol.*
+   - *Then A2A again to the Summarizer, which uses the LLM to structure raw JSON into a markdown brief.*
+   - *Finally the NotebookLM agent — it opens Chrome via CDP and creates a real NotebookLM notebook with the research pasted in as a source. The podcast excerpt and FAQ are simulated.*
 
 4. **Look at the brief** — scroll the output panel. Pay attention to the executive summary, key findings, sources table, podcast excerpt, FAQ.
 
